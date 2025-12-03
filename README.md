@@ -2,7 +2,7 @@
 
 ## Overview
 
-Book Social Network lets users create accounts, manage book collections, and interact with a community of book lovers. Key functionalities include adding books, sharing books, borrowing and returning, and user interactions. The backend is powered by Spring Boot (Java), while the frontend is built with Angular. Optionally, the application can be run using Docker for easy setup.
+Book Social Network lets users create accounts, manage book collections, and interact with a community of book lovers. Key functionalities include adding books, sharing books, borrowing and returning, and user interactions. The backend is powered by Spring Boot (Java), while the frontend is built with Angular.
 
 ## Features
 
@@ -26,6 +26,5 @@ Book Social Network lets users create accounts, manage book collections, and int
 - Angular/TypeScript
 - HTML / CSS ,Bootstrap
 
-### Other / DevOps
+### DevOps
 - docker compose for mailserver  and DB
-- (Optional) Uploads handling
