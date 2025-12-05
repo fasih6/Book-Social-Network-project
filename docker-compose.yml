@@ -21,6 +21,8 @@ services:
     ports:
       - 1080:1080 # Web UI
       - 1025:1025 # SMTP
+    networks:
+      - spring-demo
 
   bsn-api:
     container_name: bsn-api

@@ -14,17 +14,17 @@ spring:
     database: POSTGRESQL
     database-platform: org.hibernate.dialect.PostgreSQLDialect
   mail:
-    host: smtp.gmail.com
-    port: 465
-    username: technex850@gmail.com
-    password: wvmi ajve idxg irgp
+    host: mail-dev-bsn   # use Docker container name
+    port: 1025                # SMTP port of MailDev
+    username: ""              # MailDev does not require auth
+    password: ""              # MailDev does not require auth
     protocol: smtp
     properties:
       mail:
         smtp:
-          auth: true
-          ssl.enable: true
-          ssl.trust: smtp.gmail.com
+          auth: false
+          starttls.enable: false
+          ssl.enable: false
           connectiontimeout: 5000
           timeout: 5000
           writetimeout: 5000
