@@ -43,7 +43,7 @@ Book Social Network lets users create accounts, manage book collections, and int
 ```bash
 git clone https://github.com/fasih6/Book-Social-Network-project.git
 ```
-2️⃣ Build Backend Docker Image
+2️⃣ To build Backend Docker Image
 Navigate to the backend directory:
 ```bash
 cd book-network
@@ -52,7 +52,7 @@ Build the backend image:
 ```bash
 docker build -t bsn/bsn:1.0.0 -f ../docker/backend/Dockerfile .
 ```
-3️⃣ Build Frontend Docker Image
+3️⃣ To build Frontend Docker Image
 Navigate to the frontend directory:
 ```bash
 cd ../book-network-ui
@@ -61,7 +61,7 @@ Build the frontend image:
 ```bash
 docker build -t bsn/bsn-ui:1.0.0 -f ../docker/frontend/Dockerfile .
 ```
-4️⃣ Run the Application
+4️⃣ To Run the Application
 Go back to main folder and start all services using Docker Compose:
 ```bash
 docker-compose up -d
