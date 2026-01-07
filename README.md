@@ -72,3 +72,7 @@ Open your browser and go to:
 ```
 http://localhost:8080/login
 ```
+You will receive an activation code for registration on maildev server, which is available at:
+```
+http://localhost:1080
+```
