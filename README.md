@@ -28,3 +28,18 @@ Book Social Network lets users create accounts, manage book collections, and int
 
 ### DevOps
 - docker compose for mailserver  and DB
+
+
+
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/fasih6/Book-Social-Network-project.git
+```
+### 2️⃣ Build Backend Docker Image
+
+Navigate to the backend directory:
+```bash
+cd book-network
+```
